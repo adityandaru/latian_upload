@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+       
+        android:layout_width="fill_parent"
+        android:padding="15dip"
+  		android:textSize="24dip"
+        android:layout_height="wrap_content"
+        android:text="Profil Lowongan "
+  			 />
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView_deskripsi"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="12dip"
+                android:textSize="18dip"
+                android:text="textView_rincian_pekerjaan" />
+
+        </LinearLayout>
+    </ScrollView>
+    <TextView
+        android:id="@+id/textView_nama"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dip"
+        android:text="textView_nama" />
+    <TextView
+        android:id="@+id/textView_jenis_perusahaan"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dip"
+        android:text="textView_jenis_perusahaan" />
+    <TextView
+        android:id="@+id/textView_nomer_telepon"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dip"
+        android:text="textView_nomer_telepon" />
+    <TextView
+        android:id="@+id/textView_nomer_hp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dip"
+        android:text="textView_nomer_hp" />
+    <TextView
+        android:id="@+id/textView_email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dip"
+        android:text="textView_email" />
+    <TextView
+        android:id="@+id/textView_alamat"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dip"
+        android:text="textView_alamat" />
+    <Button
+         android:id="@+id/button_kembali"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="30dip"
+         android:text="Kembali" />
+
+</LinearLayout>

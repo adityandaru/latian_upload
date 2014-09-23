@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView        
+        android:padding="15dip"
+  		android:textSize="24dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Detail Lowonganccccccccccccc"	 />
+    
+   
+	<TextView
+        android:id="@+id/textView_fungsi_kerja"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dip"
+        android:text="textView_fungsi_kerja" />
+	<TextView
+        android:id="@+id/textView_pendidikan_minimal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dip"
+        android:text="textView_pendidikan_minimal" />
+    <TextView
+        android:id="@+id/textView_awal_ditayangkan"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dip"
+        android:text="textView_awal_ditayangkan" />
+     <TextView
+        android:id="@+id/textView_akhir_ditayangkan"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dip"
+        android:text="textView_akhir_ditayangkan" />
+      <TextView
+        android:id="@+id/textView_rincian_pekerjaan"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dip"
+        android:text="textView_rincian_pekerjaan" />
+     
+
+     <Button
+         android:id="@+id/button_kembali"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="30dip"
+         android:text="Kembali" />
+
+</LinearLayout>
